@@ -3,6 +3,7 @@ public class Search {
 	static int a[];
 	static int left; 
 	static int right;
+	
 		
 	static void newArray() {
 		int[] array = new int[12];
@@ -26,9 +27,7 @@ public class Search {
 			return search(count, a, mid+1, right);
 		}
 	}
-		public static void main(String[] args) {
-			newArray();			
-		}		
+			
 	}
 
 	
